@@ -1,0 +1,40 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family:'roboto', sans-serif;
+}
+.button{
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    width: 66px;
+    background-color: rgb(27, 253, 167);
+}
+.row{
+    margin: 10px 0;
+    display: flex;
+}
+.row input{
+    width: 291px;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 14px;
+    color: rgb(8, 63, 85);
+    background-color: rgb(161, 128, 87);
+}
+.center{
+    text-align: center;
+    background-color: rgb(181, 107, 250);
+    color: aliceblue;
+}
+.container{
+    background-color: rgb(50, 121, 121);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
